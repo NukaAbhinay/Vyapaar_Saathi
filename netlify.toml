@@ -1,0 +1,14 @@
+[build]
+  publish = "."
+
+# The app is a single self-contained HTML file with no index.html,
+# so serve it at the site root (and the pitch deck at /deck).
+[[redirects]]
+  from = "/"
+  to = "/Paytm_Vyaapar_Saathi.html"
+  status = 200
+
+[[redirects]]
+  from = "/deck"
+  to = "/Paytm_Vyaapar_Saathi_Deck.html"
+  status = 200
